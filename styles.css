@@ -278,12 +278,20 @@ ul {
 
 /*Graphs*/
 .graphs {
+  position: relative;
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 50px;
   padding-bottom: 50px;
   border-bottom: 2px solid #e4e9ed;
+}
+
+.graphs img {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin: -7px;
 }
 
 .circle-wrapper {
