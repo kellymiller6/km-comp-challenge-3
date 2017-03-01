@@ -5,6 +5,7 @@
 body {
   padding: 10px;
   background-color: #FFF;
+  font-family: "Open Sans", serif;
 }
 
 .wrapper {
@@ -131,6 +132,7 @@ ul {
 .search-bar input {
   width: 100%;
   margin-left: 5px;
+  font-family: "Open Sans", serif;
 }
 
 .new-user {
@@ -234,6 +236,7 @@ ul {
   padding: 5px 15px;
   width: auto;
   cursor: pointer;
+  font-family: "Open Sans", serif;
 }
 
 .open-btn img {
@@ -249,6 +252,7 @@ ul {
   margin-right: 2%;
   text-decoration: none;
   font-size: 12px;
+  font-weight: 800;
   color: #ADAEB0;
 }
 
@@ -368,6 +372,7 @@ ul {
   padding: 5px 10px;
   border: 1px solid #A9AAAE;
   border-radius: 50px;
+  font-family: "Open Sans", serif;
   font-size: 14px;
   background-color: #FFF;
   color: #696969;
@@ -403,6 +408,7 @@ main {
   border: none;
   background-color: #9aa4b6;
   color: #FFF;
+  font-family: "Open Sans", serif;
   cursor: pointer;
 }
 
@@ -447,17 +453,15 @@ td {
 }
 
 .job-description-body td {
-  display: flex;
   padding: 10px 0;
-  text-align: left;
-  line-height: 120%;
+  line-height: 140%;
   color: #6F7E95;
   font-size: 12px;
 }
 
 .label {
   width: 40%;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .job-info {
@@ -478,6 +482,7 @@ td {
   width: 100%;
   border: none;
   cursor: pointer;
+  font-family: "Open Sans", serif;
 }
 
 .sm-btn-div {
@@ -533,6 +538,7 @@ td {
 .link-input {
   display: flex;
   height: 30px;
+  font-family: "Open Sans", serif;
 }
 
 .link-input input {
@@ -547,6 +553,7 @@ td {
   color: #FFF;
   border: none;
   cursor: pointer;
+  font-family: "Open Sans", serif;
 }
 
 @media screen and (max-width: 804px){
