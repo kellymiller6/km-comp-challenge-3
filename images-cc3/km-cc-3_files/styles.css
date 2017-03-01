@@ -113,14 +113,14 @@ ul {
 
 .icon-holder, .search-bar {
   display: flex;
-  padding: 15px 25px;
   align-items: center;
+  padding: 15px 25px;
 }
 
 .sm-icon-holder {
   display: flex;
-  padding: 15px 25px;
   align-items: center;
+  padding: 15px 25px;
 }
 
 .search-bar {
@@ -164,9 +164,9 @@ ul {
 .calendar:hover,
 .grid,
 .grid:hover {
-  background-size: 20px;
   border-left: 1px solid #eef2f5;
   cursor: pointer;
+  background-size: 20px;
 }
 
 .new-user:hover,
@@ -216,8 +216,8 @@ ul {
 }
 
 .header-text a {
-  display: inline;
   text-decoration: none;
+  display: inline;
   font-size: 14px;
   color: #04A6F0;
 }
@@ -231,8 +231,8 @@ ul {
 }
 
 .open-btn{
-  padding: 5px 15px;
   width: auto;
+  padding: 5px 15px;
   cursor: pointer;
 }
 
@@ -268,8 +268,8 @@ ul {
 
 /*Main Content Styling*/
 .content-wrap {
-  padding: 10px;
   background-color: #EDF2F6;
+  padding: 10px;
 }
 
 /*Graphs*/
@@ -299,15 +299,15 @@ ul {
 }
 
 .circle {
+	border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 8px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   align-content: center;
-  width: 120px;
-  height: 120px;
-	border-radius: 50%;
-  border: 8px solid;
 }
 
 .circle p {
@@ -364,10 +364,10 @@ ul {
 
 .graph-btn {
   width: auto;
+  border-radius: 50px;
+  border: 1px solid #A9AAAE;
   margin-top: 10px;
   padding: 5px 10px;
-  border: 1px solid #A9AAAE;
-  border-radius: 50px;
   font-size: 14px;
   background-color: #FFF;
   color: #696969;
@@ -386,14 +386,15 @@ main {
 }
 
 .job-description-header th {
-  height: 50px;
-  width: 100%;
-  padding-left: 25px;
-  text-align: left;
   background-color: #6F7D97;
   color: #FFF;
   font-size: 12px;
   font-weight: 600;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  padding-left: 25px;
 }
 
 .edit-btn {
@@ -421,13 +422,14 @@ main {
 .label {
   width: 30%;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .job-info {
   display: flex;
   align-items: center;
   width: 70%;
-  line-height: 120%;
+  line-height: 1.25;
 }
 
 td {
@@ -449,10 +451,10 @@ td {
 .job-description-body td {
   display: flex;
   padding: 10px 0;
-  text-align: left;
-  line-height: 120%;
   color: #6F7E95;
   font-size: 12px;
+  line-height: 120%;
+  text-align: left;
 }
 
 .label {
@@ -464,7 +466,7 @@ td {
   display: flex;
   align-items: center;
   width: 60%;
-  line-height: 120%;
+  line-height: 1.25;
 }
 
 .table-headshot {
@@ -536,10 +538,10 @@ td {
 }
 
 .link-input input {
-  width: 100%;
   border: none;
   font-size: 12px;
   color: #696969;
+  width: 100%;
 }
 
 .copy-btn {
